@@ -1,0 +1,17 @@
+{
+  "New Slash Command": {
+    "prefix": "!newslash",
+    "body": [
+      "const {SlashCommandBuilder} = require('discord.js')",
+      "",
+      "module.exports = {",
+      "data: new SlashCommandBuilder()",
+      ".setName('$TM_FILENAME_BASE')",
+      ".setDescription('$1'),",
+      "execute(interaction) {",
+      "//code here",
+      "},",
+      "};"
+    ]
+  }
+}
